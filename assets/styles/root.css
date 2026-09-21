@@ -1,0 +1,13 @@
+:root {
+  --text-color-dark: #403F3D;
+  --text-color-light: #E1D4C9;
+  --text-color-accent: #B0907A;
+
+  --bg-color-body: #E1D4C9;
+  --bg-color-container: #665F55;
+
+  --bg-color-backdrop: #403F3D80;
+
+  --border-color-light: #C1B6AD;
+  --border-color-dark: #665F55;
+}
