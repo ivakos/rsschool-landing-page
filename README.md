@@ -1,0 +1,2 @@
+# rsschool-landing-page
+website
