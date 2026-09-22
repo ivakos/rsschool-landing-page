@@ -38,7 +38,8 @@
             </li>
           </ul>
         </nav>
-        <a href="../menu/menu.html" class="header__menu header__menu-active text-underline">
+        <a href="../menu/menu.html" style="pointer-events: none;"
+          class="header__menu header__menu-active text-underline">
           <p class="link-and-btn">Menu</p>
           <img src="../assets/images/coffee-cup.svg" alt="coffee-cup">
         </a>
@@ -48,139 +49,131 @@
         </div>
       </header>
 
-      <div class="popup__wrapper transition">
-        <div class="popup">
-          <figure class="card__figure popup__figure">
-            <img class="card__img popup__img" src="#" alt="drink">
-          </figure>
-          <div class="popup__description">
-            <div class="popup__title">
-              <h3 class="popup-title__name heading-3">Irish coffee</h3>
-              <p class="popup-title__description text-medium">Fragrant black coffee with Jameson Irish whiskey and
-                whipped milk</p>
-            </div>
-
-            <div class="popup__size">
-              <p class="text-medium">Size</p>
-              <div class="size__btn-wrapper">
-                <div class="size__btn transition link-and-btn">
-                  <div class="size-btn__icon transition">
-                    S
-                  </div>
-                  <p class="size transition"></p>
-                </div>
-                <div class="size__btn transition link-and-btn">
-                  <div class="size-btn__icon transition">
-                    M
-                  </div>
-                  <p class="size transition"></p>
-                </div>
-                <div class="size__btn transition link-and-btn">
-                  <div class="size-btn__icon transition">
-                    L
-                  </div>
-                  <p class="size transition"></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="popup__additives">
-              <p class="text-medium">Additives</p>
-              <div class="additives__btn-wrapper">
-                <div class="additives__btn transition link-and-btn">
-                  <div class="additives-btn__icon transition">
-                    1
-                  </div>
-                  <p class="additives transition"></p>
-                </div>
-                <div class="additives__btn transition link-and-btn">
-                  <div class="additives-btn__icon transition">
-                    2
-                  </div>
-                  <p class="additives transition"></p>
-                </div>
-                <div class="additives__btn transition link-and-btn">
-                  <div class="additives-btn__icon transition">
-                    3
-                  </div>
-                  <p class="additives transition"></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="popup__total heading-3">
-              <p>Total:</p>
-              <p class="total-price">$7.00</p>
-            </div>
-
-            <div class="popup__alert">
-              <img src="./assets/images/info-empty.svg" alt="info empty" style="width: 16px; height: 16px;">
-              <p class="text-caption">
-                The cost is not final. Download our mobile app to see the final price and place your order. Earn loyalty
-                points and enjoy your favorite coffee with up to 20% discount.
-              </p>
-
-            </div>
-
-            <div class="popup__close-btn transition link-and-btn">
-              <p>Close</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="burger-menu transition">
-        <nav class="header__nav">
-          <ul class="nav__ul">
-            <li class="nav-ul__li">
-              <a href="../home/index.html#favorite-coffee" class="li__a burger-link text-underline"> Favorite coffee
-              </a>
-            </li>
-            <li class="nav-ul__li">
-              <a href="../home/index.html#about" class="li__a burger-link text-underline"> About </a>
-            </li>
-            <li class="nav-ul__li">
-              <a href="../home/index.html#mobile-app" class="li__a burger-link text-underline"> Mobile app </a>
-            </li>
-            <li class="nav-ul__li">
-              <a href="#contact-us" class="li__a burger-link text-underline"> Contact us </a>
-            </li>
-          </ul>
-        </nav>
-        <a href="#" class="header__menu header__menu-active text-underline">
-          <p class="burger-link">Menu</p>
-          <img src="../assets/images/coffee-cup.svg" alt="coffee-cup">
-        </a>
-      </div>
-
       <main class="main section">
         <h1 class="heading-2 text-color-dark">Behind each of our cups hides an <span
             class="text-accent text-color-accent">amazing surprise</span></h1>
         <div class="menu__container">
           <div class="menu__btns">
-            <div class="menu__btn transition">
+            <div class="menu__btn transition menu__btn-active">
               <figure class="menu-btn__figure">
                 <img class="menu-btn__img" src="./assets/images/coffee.svg" alt="icon">
               </figure>
-              <p class="menu-btn__p link-and-btn">coffee</p>
+              <p class="menu-btn__p link-and-btn">Coffee</p>
             </div>
 
             <div class="menu__btn transition">
               <figure class="menu-btn__figure">
                 <img class="menu-btn__img" src="./assets/images/tea.svg" alt="icon">
               </figure>
-              <p class="menu-btn__p link-and-btn">tea</p>
+              <p class="menu-btn__p link-and-btn">Tea</p>
             </div>
 
             <div class="menu__btn transition">
               <figure class="menu-btn__figure">
                 <img class="menu-btn__img" src="./assets/images/dessert.svg" alt="icon">
               </figure>
-              <p class="menu-btn__p link-and-btn">dessert</p>
+              <p class="menu-btn__p link-and-btn">Dessert</p>
             </div>
           </div>
 
+          <div class="menu__cards">
+            <div class="menu__card text-color-dark">
+              <figure class="card__figure">
+                <img class="card__img transition" src="./assets/images/coffee-1.jpg" alt="card">
+              </figure>
+              <div class="card__description">
+                <div class="card-description__text">
+                  <h3 class="heading-3">Irish coffee</h3>
+                  <p class="text-medium">Fragrant black coffee with Jameson Irish whiskey and whipped milk</p>
+                </div>
+                <h3 class="heading-3">$7.00</h3>
+              </div>
+            </div>
+            <div class="menu__card text-color-dark">
+              <figure class="card__figure">
+                <img class="card__img transition" src="./assets/images/coffee-2.jpg" alt="card">
+              </figure>
+              <div class="card__description">
+                <div class="card-description__text">
+                  <h3 class="heading-3">Kahlua coffee</h3>
+                  <p class="text-medium">Classic coffee with milk and Kahlua liqueur under a cap of frothed milk</p>
+                </div>
+                <h3 class="heading-3">$7.00</h3>
+              </div>
+            </div>
+            <div class="menu__card text-color-dark">
+              <figure class="card__figure">
+                <img class="card__img transition" src="./assets/images/coffee-3.jpg" alt="card">
+              </figure>
+              <div class="card__description">
+                <div class="card-description__text">
+                  <h3 class="heading-3">Honey raf</h3>
+                  <p class="text-medium">Espresso with frothed milk, cream and aromatic honey</p>
+                </div>
+                <h3 class="heading-3">$5.50</h3>
+              </div>
+            </div>
+            <div class="menu__card text-color-dark">
+              <figure class="card__figure">
+                <img class="card__img transition" src="./assets/images/coffee-4.jpg" alt="card">
+              </figure>
+              <div class="card__description">
+                <div class="card-description__text">
+                  <h3 class="heading-3">Ice cappuccino</h3>
+                  <p class="text-medium">Cappuccino with soft thick foam in summer version with ice</p>
+                </div>
+                <h3 class="heading-3">$5.00</h3>
+              </div>
+            </div>
+            <div class="menu__card text-color-dark">
+              <figure class="card__figure">
+                <img class="card__img transition" src="./assets/images/coffee-5.jpg" alt="card">
+              </figure>
+              <div class="card__description">
+                <div class="card-description__text">
+                  <h3 class="heading-3">Espresso</h3>
+                  <p class="text-medium">Classic black coffee</p>
+                </div>
+                <h3 class="heading-3">$4.50</h3>
+              </div>
+            </div>
+            <div class="menu__card text-color-dark">
+              <figure class="card__figure">
+                <img class="card__img transition" src="./assets/images/coffee-6.jpg" alt="card">
+              </figure>
+              <div class="card__description">
+                <div class="card-description__text">
+                  <h3 class="heading-3">Latte</h3>
+                  <p class="text-medium">Espresso coffee with the addition of steamed milk and dense milk foam</p>
+                </div>
+                <h3 class="heading-3">$5.50</h3>
+              </div>
+            </div>
+            <div class="menu__card text-color-dark">
+              <figure class="card__figure">
+                <img class="card__img transition" src="./assets/images/coffee-7.jpg" alt="card">
+              </figure>
+              <div class="card__description">
+                <div class="card-description__text">
+                  <h3 class="heading-3">Latte macchiato</h3>
+                  <p class="text-medium">Espresso with frothed milk and chocolate</p>
+                </div>
+                <h3 class="heading-3">$5.50</h3>
+              </div>
+            </div>
+            <div class="menu__card text-color-dark">
+              <figure class="card__figure">
+                <img class="card__img transition" src="./assets/images/coffee-8.jpg" alt="card">
+              </figure>
+              <div class="card__description">
+                <div class="card-description__text">
+                  <h3 class="heading-3">Coffee with cognac</h3>
+                  <p class="text-medium">Fragrant black coffee with cognac and whipped cream</p>
+                </div>
+                <h3 class="heading-3">$6.50</h3>
+              </div>
+            </div>
+          </div>
           <div class="refresh-btn">
             <svg class="transition" width="24" height="24" viewBox="0 0 24 24" fill="none"
               xmlns="http://www.w3.org/2000/svg">
@@ -258,9 +251,6 @@
       </footer>
     </div>
   </div>
-  <script src="../assets/scripts/burger.js"></script>
-  <script src="../assets/scripts/category.js" type="module"></script>
-  <script src="../assets/scripts/popup.js" type="module"></script>
 </body>
 
 </html>
