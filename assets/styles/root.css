@@ -1,0 +1,14 @@
+:root {
+  --text-color-dark: #403F3D;
+  --text-color-light: #E1D4C9;
+  --text-color-accent: #B0907A;
+
+  --bg-color-body: #E1D4C9;
+  --bg-color-container: #665F55;
+
+  /* TODO: add 80% opacity to --bg-color-backdrop */
+  --bg-color-backdrop: #403f3d;
+
+  --border-color-light: #C1B6AD;
+  --border-color-dark: #665F55;
+}
